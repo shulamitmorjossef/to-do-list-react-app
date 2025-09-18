@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
-import TodoList from "./components/TodoList";
-import EditModal from "./components/EditModal";
+import Header from "./components/Header.jsx";
+import Sidebar from "./components/Sidebar.jsx";
+import Footer from "./components/Footer.jsx";
+import TodoList from "./components/TodoList.jsx";
+import EditModal from "./components/EditModal.jsx";
 
 function App() {
   const [todos, setTodos] = useState([]);

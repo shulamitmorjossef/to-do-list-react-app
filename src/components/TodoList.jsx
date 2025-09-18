@@ -1,7 +1,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 
-function TodoList({ todos, toggleTodo, deleteTodo, editTodo }) {
+function TodoList({ todos, toggleTodo, deleteTodo }) {
   return (
     <main className="todo-list">
       <h2>Tasks</h2>
@@ -12,7 +12,7 @@ function TodoList({ todos, toggleTodo, deleteTodo, editTodo }) {
             todo={todo}
             toggleTodo={toggleTodo}
             deleteTodo={deleteTodo}
-            editTodo={editTodo}
+            // editTodo={editTodo}
           />
         ))}
       </ul>
